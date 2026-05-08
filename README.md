@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+<p align="center">
+  <img width="843" height="400" alt="AI4Business Management" src="https://via.placeholder.com/843x400?text=AI4Business+Management+Platform" />
+</p>
 
-## Project info
+<h1 align="center">🤖 AI4Business: Smart Hackathon Management</h1>
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+<p align="center">
+  Münsiflər üçün data-yönümlü qiymətləndirmə və iştirakçılar üçün AI əsaslı inkişaf tövsiyələri platforması.
+  <br><b>Holberton School - AI4 Business Management Hackathon</b>
+</p>
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🧠 Overview
 
-**Use Lovable**
+Bu platform, hakaton təşkilatçıları və münsifləri üçün prosesi rəqəmsallaşdıran, eyni zamanda **Süni İntellekt (AI)** vasitəsilə iştirakçıların layihələrini analiz edərək onlara strateji tövsiyələr verən bir ekosistemdir.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Əsas yanaşma:
+> Qiymətləndirməni sadəcə ballardan ibarət deyil, AI dəstəkli bir inkişaf yoluna çevirmək.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 💡 AI-Powered Recommendation Engine
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Layihənin ən güclü tərəfi münsiflərə və iştirakçılara təqdim etdiyi **AI Tövsiyə Sistemi**dir:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Strateji Rəylər:** Münsiflərin daxil etdiyi rəqəmsal balları analiz edərək, komandalara zəif tərəflərini necə gücləndirmək barədə peşəkar rəylər formalaşdırır.
+- **Skill-Gap Analysis:** İştirakçıların profillərini analiz edərək, hər bir komandaya çatışmayan texniki bacarıqlar (məsələn: *Data Visualization* və ya *Docker*) haqqında xüsusi öyrənmə materialları təklif edir.
+- **Predictive Scoring:** Layihənin ilkin göstəricilərinə əsasən onun biznes mühitinə uyğunluq potensialını təxmin edir.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🎯 Problem
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Hakatonlarda mərkəzləşdirilmiş iştirakçı bazasının olmaması.
+- Münsiflərin qiymətləndirmə zamanı çox vaxt itirməsi.
+- İştirakçıların hakatondan sonra konstruktiv texniki feedback ala bilməməsi.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## ⚙️ How It Works
 
-**Edit a file directly in GitHub**
+### 1️⃣ Participant Management
+Bütün komanda məlumatları və layihə sənədləri mərkəzləşdirilmiş PostgreSQL bazasında toplanır.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 2️⃣ Live Jury Panel
+Münsiflər interaktiv panel vasitəsilə layihələri real vaxtda qiymətləndirir və dərhal nəticələri (ranking) görürlər.
 
-**Use GitHub Codespaces**
+### 3️⃣ AI Recommendation Module
+Sistem balları emal edərək iştirakçılara "Gələcək İnkişaf Yol Xəritəsi" (Next Steps) təqdim edir.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🧩 Key Features
 
-This project is built with:
+- 📍 **Centralized Hub:** Bütün iştirakçı və layihə datası bir yerdə.
+- 📊 **Dynamic Leaderboard:** Real vaxt rejimində yenilənən qaliblər siyahısı.
+- 🤖 **AI-Based Feedback:** Avtomatlaşdırılmış peşəkar rəylər.
+- 🐳 **Containerized Architecture:** Docker vasitəsilə sürətli və stabil infrastruktur.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🛠️ Tech Stack
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+- **Backend:** Python (AI Logic & Data Processing).
+- **Frontend:** Modern HTML/CSS & JavaScript (Interactive UI).
+- **AI/LLM:** GPT-4 API (Strateji tövsiyələrin generasiyası üçün).
+- **Database:** PostgreSQL.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 👨‍💻 Author
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Ümüd Ağayev**
+<br>İnformasiya Təhlükəsizliyi & Data Analitika Tələbəsi
